@@ -1,5 +1,8 @@
 package com.app.back.biblioteca;
 
+import com.app.back.TirarFuego;
+
+import java.io.Serializable;
 import java.time.Year;
 
 public class Libro {
@@ -27,4 +30,5 @@ public class Libro {
         int anioActual = Year.now().getValue();
         return anioActual - anioPublicacion;
     }
+
 }

@@ -19,6 +19,12 @@ public class Cuenta {
         this.interes = interes;
     }
 
+    public Cuenta(int numeroCuenta, long idCliente, int saldoActual) {
+        this.numeroCuenta = numeroCuenta;
+        this.idCliente = idCliente;
+        this.saldoActual = saldoActual;
+    }
+
     // Getters y Setters
     public int getNumeroCuenta() {
         return numeroCuenta;

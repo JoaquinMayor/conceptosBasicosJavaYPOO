@@ -157,7 +157,7 @@ public class TareaClase {
 
 
     public static void ejercicioProductosClaseAbstracta(){
-        Producto telefono = new Telefono("iPhone 14", 1000, 10); //Las clases absvtractas no se pueden inicializar pero por cuestiones de herencia yo puedo decir que una clase padre tenga la clase del hijo pero no al revez
+        Producto telefono = new Telefono("iPhone 14", 1000); //Las clases absvtractas no se pueden inicializar pero por cuestiones de herencia yo puedo decir que una clase padre tenga la clase del hijo pero no al revez
         //Esto es muy util para el manejo de colecciones donde podemos hacer una colección de la clase padre y llamar al método compartidos entre todos en este caso mostrar información
         Producto laptop = new Laptop("Dell XPS 13", 1500, 15);
         Producto televisor = new Televisor("Samsung QLED", 2000, 5, 18);

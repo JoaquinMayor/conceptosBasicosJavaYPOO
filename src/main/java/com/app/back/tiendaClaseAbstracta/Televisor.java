@@ -6,7 +6,6 @@ public class Televisor extends Producto{
 
     public Televisor(String nombre, double precioBase, double descuento, double impuesto) {
         super(nombre, precioBase);
-        this.descuento = descuento;
         this.impuesto = impuesto;
     }
 

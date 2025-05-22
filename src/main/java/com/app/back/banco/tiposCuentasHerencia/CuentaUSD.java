@@ -5,7 +5,7 @@ import com.app.back.banco.Cuenta;
 public class CuentaUSD extends Cuenta {//Aplicamos herencia con el extends y decimos cual es el padre
     private static final double TASA_CAMBIO_CLP_A_USD = 1 / 850.0;
 
-    public CuentaUSD(int numeroCuenta, long idCliente, double saldoActual) {
+    public CuentaUSD(int numeroCuenta, long idCliente, int saldoActual) {
         super(numeroCuenta, idCliente, saldoActual);
     }
 
